@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <!-- jekyll-theme-minimal layout without scripts, analytics or external resources -->
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+        <p>
+          <a href="{{ "/" | relative_url }}">Support</a><br>
+          <a href="{{ "/privacy" | relative_url }}">Privacy Policy</a><br>
+          <a href="{{ "/terms" | relative_url }}">Terms of Use</a>
+        </p>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Coditive · kasim@mitrabilisim.com.tr<br>Hosted on GitHub Pages &mdash; Theme by orderedlist. No cookies, no analytics.</small></p>
+      </footer>
+    </div>
+  </body>
+</html>

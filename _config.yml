@@ -1,0 +1,17 @@
+title: WhichToKeep
+description: Support, privacy policy and terms of use for the WhichToKeep (HangisiKalsın) app by Coditive.
+theme: jekyll-theme-minimal
+url: "https://springs-tea.github.io"
+baseurl: "/whichtokeep"
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+exclude:
+  - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
